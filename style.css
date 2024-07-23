@@ -1158,11 +1158,10 @@ footer a:hover {
   margin: 15% auto; /* Centraliza o modal na tela */
   padding: 4em;
   border: 3px solid var(--gold);
-  width: 80%; /* Largura do modal */
+  width: 75%; /* Largura do modal */
   max-width: 1000px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  border-radius: 10px;
-  position: relative;
+  border-radius: 5px;
 }
 
 .close {
