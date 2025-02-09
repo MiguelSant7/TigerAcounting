@@ -72,7 +72,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background:var(--roxo-dark);
+  background: linear-gradient(to bottom, black, gray);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -85,23 +85,23 @@
   background: var(--gold-gradient);
   --gold-gradient: linear-gradient(
    135deg,
-   #69471C 0%,
-   #C9A771 77%
+   #000000 0%,
+   #000000 77%
  );
 }
 
 
 :root { /* Definição de Variaveis CS para cores e gradientes */
   --bg: #F0E9EE;
-  --azul-ID: #4A4F64;
-  --azul-dark: #262A39;
+  --azul-ID: #121414cb;
+  --azul-dark: #19191c;
   --roxo-ID: #B59BAD;
   --gold: #C9A771;
-  --gold-dark: #866C43;
-  --roxo-dark: #392631;
+  --gold-dark: #2a2626;
+  --roxo-dark: #000000e1;
   --branco-ID: #FFFFFF;
   --gold-gradient: linear-gradient(
-    35deg,
+    35deg,  
     #69471C 0%,
     #C9A771 77%
   );
@@ -110,23 +110,23 @@
       #1C691F 0%,
       #47C04C 77%
   );
-  --violet-gradient: linear-gradient(
+  --violet-gradient: linear-gradient( 
     35deg,
     #392631 0%,
     #B59BAD 77%
   );
   --especialidades-gradient-right: linear-gradient(to right,
   rgba(57,38,49,0) 0%,
-  rgba(57,38,49,1) 35%,
-  rgba(57,38,49,1) 100%);
+  rgb(38, 37, 36) 35%,
+  rgb(1, 1, 1) 100%);
   --especialidades-gradient-left: linear-gradient(to left,
   rgba(57,38,49,0) 0%,
-  rgba(57,38,49,1) 35%,
-  rgba(57,38,49,1) 100%);
+  rgb(38, 37, 36) 35%,
+  rgb(1, 1, 1) 100%);
   --especialidades-gradient-top: linear-gradient(to bottom,
   rgba(57,38,49,0) 0%,
-  rgba(57,38,49,1) 30%,
-  rgba(57,38,49,1) 100%);
+  rgb(38, 37, 36) 35%,
+  rgb(1, 1, 1) 100%);
 }
 
 /* Configurações de Texto */
@@ -160,7 +160,7 @@ h4 {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 2.2rem;
-  color: var(--gold);
+  color:darkorange;
   margin: 0;
 }
 
@@ -235,7 +235,7 @@ button:hover {
 
 /* Cabeçalho */
 header {
-  background-color: var(--azul-ID);
+  background-color: rgb(21, 20, 19);
 }
 
 #first-nav {
@@ -257,8 +257,9 @@ header {
 }
 
 #first-nav img {
-  max-width: 250px;
+  max-width: 100px;
   width: 100%;
+  margin-left: -25%;
 }
 
 #mobile-nav {
@@ -283,8 +284,8 @@ header {
 /* Seção Home */
 
 .home {
-  background-image: linear-gradient(to left, rgba(240,233,238,0),
-   rgba(240,233,238,0) 20vw,
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0),
+   rgba(3, 3, 3, 0) 20vw,
    rgba(240,233,238,1) 50vw, 
    rgba(240,233,238,1) 80vw, 
    rgba(240,233,238,1) 100vw),
@@ -572,8 +573,8 @@ header {
   background-image: linear-gradient(to left,
   rgba(38,42,57,0) 0%,
   rgba(38,42,57,0) 20%,
-  rgba(38,42,57,1) 45%,
-  rgba(38,42,57,1) 100%), url(imgs/escritorio\ serctec\ 2.jpeg); 
+  rgb(0, 0, 0) 45%,
+  rgb(20, 21, 24) 100%), url(imgs/escritorio\ serctec\ 2.jpeg); 
   background-size: contain;
   background-repeat: no-repeat; 
   background-position: right;
