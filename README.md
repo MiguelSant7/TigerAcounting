@@ -1,4 +1,4 @@
-# 🏢 Tiger Accounting - Projeto 1
+# 🏢 Tiger Accounting - Projetos 1
 
 ## 📌 Sobre o Projeto
 **Tiger Accounting** é um site desenvolvido para oferecer serviços e informações sobre contabilidade, visando facilitar o gerenciamento financeiro e contábil para empresas e profissionais da área.
